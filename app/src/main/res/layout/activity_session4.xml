@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".session4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#acbdaa"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Foods to eat for better mental health "
+            android:textStyle="bold"
+            android:textColor="#858585"
+            android:textSize="22dp"
+            android:fontFamily="@font/nunito_sans"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:text="MAY 26"
+            android:textColor="#858585"
+            android:textSize="18dp"
+            android:fontFamily="@font/nunito_sans"/>
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:text="10:30PM-11:00PM"
+            android:textColor="#858585"
+            android:textSize="18dp"
+            android:fontFamily="@font/nunito_sans"/>
+    </LinearLayout>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Himadri Bhatnagar  "
+        android:textStyle="bold"
+        android:textColor="#858585"
+        android:textSize="22dp"
+        android:fontFamily="@font/nunito_sans"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+
+        android:text="Certified Psychologist"
+
+        android:textColor="#858585"
+        android:textSize="16dp"
+        android:fontFamily="@font/nunito_sans"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Description"
+        android:textStyle="bold"
+        android:textColor="#858585"
+        android:textSize="22dp"
+        android:fontFamily="@font/nunito_sans"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:text="Beat the stress by eating these foods. In our session, we will discuss strategies to overcome stressful times and foods to eat instead of emotional eating or skipping meals together"
+        android:textSize="18dp"
+        android:fontFamily="@font/nunito_sans"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Who is this session for?"
+        android:textStyle="bold"
+        android:textColor="#858585"
+        android:textSize="22dp"
+        android:fontFamily="@font/nunito_sans"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:text="-Admin"
+        android:fontFamily="@font/nunito_sans"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:text="-Staff"
+        android:fontFamily="@font/nunito_sans"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:text="-CHRO's"
+        android:fontFamily="@font/nunito_sans"/>
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/re"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ed"
+        android:fontFamily="@font/lora"
+        android:padding="10dp"
+        android:text="Join Session"
+        />
+
+
+</LinearLayout>

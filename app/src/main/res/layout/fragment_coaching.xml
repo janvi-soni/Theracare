@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".coaching">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_sans"
+            android:gravity="center"
+            android:textColor="#acbdaa"
+            android:text="Coachinng Schedule"
+            android:textSize="25dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="8dp"
+                android:layout_marginLeft="10dp"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Explore"
+                        android:textColor="#ffffff"
+                        android:background="#acbdaa"
+
+
+                        android:fontFamily="@font/nunito_sans"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="158dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="8dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Your Sessions"
+                        android:fontFamily="@font/nunito_sans"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <com.example.mittihub.HorizontalCalendarView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/llk"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_sans"
+            android:textColor="#858585"
+            android:text="Saturday, May 20"
+            android:textSize="18dp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:elevation="5dp"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Coming together for being and belongings"
+                    android:fontFamily="@font/nunito_sans"
+                    android:paddingLeft="10dp"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12dp"
+                    android:text="10:30pm with Ishani Bhatnagar"
+                    android:fontFamily="@font/nunito_sans"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_sans"
+            android:textColor="#858585"
+            android:text="Monday , May 22"
+            android:textSize="18dp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:elevation="5dp"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Inviting calm and managing overwhelm"
+                    android:fontFamily="@font/nunito_sans"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12dp"
+                    android:text="10:30pm with Shruti Mehta"
+                    android:fontFamily="@font/nunito_sans"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_sans"
+            android:textColor="#858585"
+            android:text="Wednesday, May 24"
+            android:textSize="18dp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:elevation="5dp"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Creating your wellness goals "
+                    android:fontFamily="@font/nunito_sans"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12dp"
+                    android:text="10:30pm with Aishwarya Sharma"
+                    android:fontFamily="@font/nunito_sans"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_sans"
+            android:textColor="#858585"
+            android:text="Friday, May 26"
+            android:textSize="18dp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:elevation="5dp"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Foods to eat for better mental health"
+                    android:fontFamily="@font/nunito_sans"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12dp"
+                    android:text="10:30pm with Himadri Bhatnagar"
+                    android:fontFamily="@font/nunito_sans"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_sans"
+            android:textColor="#858585"
+            android:text="Sunday, May 28"
+            android:textSize="18dp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:elevation="5dp"
+            app:cardCornerRadius="10dp"
+
+            android:layout_margin="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Group peer Support"
+                    android:fontFamily="@font/nunito_sans"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="12dp"
+                    android:paddingLeft="10dp"
+                    android:text="10:30pm with Sonal Chauhan"
+                    android:fontFamily="@font/nunito_sans"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
+
+</FrameLayout>

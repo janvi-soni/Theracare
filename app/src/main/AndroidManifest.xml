@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mittihub">
+
+<!--    <uses-feature-->
+<!--        android:name="android.hardware.camera"-->
+<!--        android:required="false" />-->
+<!--    <uses-feature-->
+<!--        android:name="android.hardware.telephony"-->
+<!--        android:required="false" />-->
+
+<!--    <uses-permission android:name="android.permission.CALL_PHONE" />-->
+<!--    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+<!--    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />-->
+<!--    <uses-permission android:name="android.permission.CAMERA" />-->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MittiHub"
+        tools:targetApi="31">
+        <activity
+            android:name=".detailsactivity"
+            android:exported="false" />
+        <activity
+            android:name=".intenthelper"
+            android:exported="false" />
+        <activity
+            android:name=".session5"
+            android:exported="false" />
+        <activity
+            android:name=".session4"
+            android:exported="false" />
+        <activity
+            android:name=".sesson3"
+            android:exported="false" />
+        <activity
+            android:name=".session2"
+            android:exported="false" />
+        <activity
+            android:name=".session1"
+            android:exported="false" />
+        <activity
+            android:name=".slowing_down"
+            android:exported="false" />
+        <activity
+            android:name=".daily_frustation"
+            android:exported="false" />
+        <activity
+            android:name=".daily_stress"
+            android:exported="false" />
+        <activity
+            android:name=".work_life_balance"
+            android:exported="false" />
+        <activity
+            android:name=".questhree"
+            android:exported="false" />
+        <activity
+            android:name=".questwo"
+            android:exported="false" />
+        <activity
+            android:name=".quesone"
+            android:exported="false" />
+        <activity
+            android:name=".day"
+            android:exported="false" />
+        <activity
+            android:name=".meetcoach"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyPolicy"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".journal_entry"
+            android:exported="false" />
+        <activity
+            android:name=".happy"
+            android:exported="false" />
+        <activity
+            android:name=".mood"
+            android:exported="false" />
+        <activity
+            android:name=".forgot"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

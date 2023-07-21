@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Theracare</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>\'
+    <string name="mc1">Theracare coaches understand the realities and challenges of working in corporate. Briefly describe what you\'d like to talk about, and we will connect you to a coach within 24-48 hours.
+</string>
+    <string name="d1">We have received your message and are working fast to pair you up with the right coach!
+</string>
+    <string name="d2">Expect to hear from us within 24-48 hours via text or email</string>
+    <string name="work">Work-life balance, says Nigel Marsh, is too important to be left in the hands of your employer. At TEDxSydney, Marsh lays out an ideal day balanced between family time, personal time and productivity -- and offers some stirring encouragement to make it happen.
+</string>
+    <string name="stress">You\'re not at your best when you\'re stressed. In fact, your brain has evolved over millennia to release cortisol in stressful situations, inhibiting rational, logical thinking but potentially helping you survive, say, being attacked by a lion. Neuroscientist Daniel Levitin thinks there\'s a way to avoid making critical mistakes in stressful situations, when your thinking becomes clouded — the pre-mortem. "We all are going to fail now and then," he says. "The idea is to think ahead to what those failures might be."</string>
+    <string name="frustation">Dr. Andrew Huberman is a neuroscientist and tenured professor in the Department of Neurobiology at Stanford University School of Medicine. He is an expert in neuroplasticity, and his work in the Huberman Lab has been featured in Science, Discover, Scientific American, Time, the New York Times, and countless peer-reviewed journals.</string>
+    <string name="slowing">What does it mean to slow down in life?
+Slowing down is also known as taking a step back or pausing. This can mean taking a few moments to take a break from your day-to-day activities or making more conscious decisions about how you spend your time and energy.</string>
+
+    <string name="mc2">You can connect with coaches about: </string>
+    <string name="mc3">- work-life balance </string>
+    <string name="mc4">- difficult colleague or client relationship</string>
+    <string name="mc5">- general stress and anxiety</string>
+    <string name="mc6">- better sleep </string>
+    <string name="mc7">- peer pressure </string>
+    <string name="mc8">- and more... </string>
+    <string name="para1">At Theracare, we take your privacy seriously. Please read this Privacy Policy to learn how we treat your personal data. By using or accessing our Services in any manner, including without limitation registering for the Services, you acknowledge that you accept the practices and policies outlined below, and you hereby consent that we will collect, use and share your information as described in this Privacy Policy. These terms apply to all users of the Services, including, without limitation, registered and unregistered users.
+    </string>
+    <string name="hyd1"> How would you rate your wellbeing today?</string>
+    <string name="para2">Remember that your use of Theracare Services is at all times subject to our Terms of Use, which incorporates this Privacy Policy. Any terms we use in this Policy without defining them, including some capitalized terms, have the definitions given to them in the Terms of Use.
+    </string>
+    <string name="para3">You may print a copy of this Privacy Policy by clicking here.
+    </string>
+    <string name="para4">As we continually work to improve our Services, we may need to change this Privacy Policy from time to time. Upon such changes, we will alert you to any such changes by placing a notice on the Theracare website, by sending you an email and/or by some other means. Please note that if you’ve opted not to receive legal notice emails from us (or you haven’t provided us with your email address), those legal notices will still govern your use of the Services, and you are still responsible for reading and understanding them. If you use the Services after any changes to the Privacy Policy have been posted, that means you agree to all of the changes.
+</string>
+    <string name="para5">This Privacy Policy covers how we treat Personal Data that we gather when you access or use our Services. “Personal Data” means any information that identifies or relates to a particular individual and also includes information referred to as “personally identifiable information” or “personal information” under applicable data privacy laws, rules or regulations. This Privacy Policy does not cover the practices of companies we don’t own or control or people we don’t manage.
+    </string>
+    <string name="para6">
+    <li>What this Privacy Policy Covers</li>
+    <li>Personal Data</li>
+    <li>How We Disclose Your Personal Data</li>
+    <li>Tracking Tools and Opt-Out
+    </li>
+    <li>Data Security
+    </li>
+    <li>Data Retention
+    </li>
+    <li>Personal Data of Children</li>
+    <li>Contact Information</li>
+    </string>
+
+
+    <string-array name="contact">
+        <item>Call</item>
+        <item>Mail</item>
+        <item>cancel</item>
+
+
+    </string-array>
+    <string name="title_activity_yourday">yourday</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

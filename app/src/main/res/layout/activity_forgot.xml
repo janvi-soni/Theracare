@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgot">
+
+    <TextView
+
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/nunito_sans"
+        android:text="Reset Your Password"
+        android:textColor="#acbdaa"
+        android:textSize="25dp" />
+
+    <EditText
+        android:textColor="#acbdaa"
+
+        android:id="@+id/re"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ed"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/nunito_sans"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/btnn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/re"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ed"
+        android:fontFamily="@font/lora"
+        android:padding="10dp"
+        android:text="Reset"
+        android:textSize="17dp" />
+
+
+</RelativeLayout>

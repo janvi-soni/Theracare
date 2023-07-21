@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "78497107654",
+    "project_id": "mittihub-f4660",
+    "storage_bucket": "mittihub-f4660.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78497107654:android:52cdd1664b119c4c9251c7",
+        "android_client_info": {
+          "package_name": "com.example.mittihub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78497107654-sr92c8mdpd72irsi37is73ab02ca7n91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVwtTOfYHVqwPD61Db7Qvsfa2P9LnpKXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78497107654-sr92c8mdpd72irsi37is73ab02ca7n91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

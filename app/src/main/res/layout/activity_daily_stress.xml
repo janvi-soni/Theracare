@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".daily_stress">
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/vv2"/>
+    <TextView
+        android:id="@+id/tw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Stress"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#858585"
+        android:fontFamily="@font/nunito_sans"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stress"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/nunito_sans"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Duration: 12:20"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/nunito_sans"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

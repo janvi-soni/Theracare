@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".journal_entry">
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_add_to_home_screen_24"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#acbdaa"
+            android:text="Journal Entry"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:fontFamily="@font/nunito_sans"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select a Prompt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:id="@+id/tv"
+
+        android:fontFamily="@font/nunito_sans"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/lora"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Entry"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="@font/nunito_sans"/>
+    <EditText
+        android:id="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Writing..."
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="@font/nunito_sans"/>
+    <Button
+        android:layout_marginTop="100dp"
+        android:id="@+id/btnj"
+        android:background="@drawable/ed"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="17dp"
+        android:padding="10dp"
+        android:text="Continue"
+        android:fontFamily="@font/nunito_sans"/>
+
+
+
+</LinearLayout>

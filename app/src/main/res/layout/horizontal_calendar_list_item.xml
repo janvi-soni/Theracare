@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:id="@+id/parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:layout_marginEnd="1dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_600"
+        android:textSize="12sp"
+        android:text="DEC"
+        android:gravity="center"
+        android:padding="5dp"
+        android:fontFamily="@font/nunito_sans"
+        android:id="@+id/month"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_600"
+        android:textSize="12sp"
+        android:text="12"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="@font/nunito_sans"
+        android:id="@+id/date"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey_600"
+        android:textSize="12sp"
+        android:text="FRI"
+        android:gravity="center"
+        android:fontFamily="@font/nunito_sans"
+        android:padding="5dp"
+        android:id="@+id/day"/>
+
+</LinearLayout>

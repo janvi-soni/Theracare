@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:padding="15dp"
+    android:background="@drawable/ed"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_centerInParent="true"
+            android:src="@drawable/img22"
+            app:civ_border_color="#FF000000"
+            android:layout_width="60dp"
+            android:layout_height="70dp"/>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="@font/nunito_sans"
+
+                android:id="@+id/tv1"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="group name"/>
+            <TextView
+                android:fontFamily="@font/nunito_sans"
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="public"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

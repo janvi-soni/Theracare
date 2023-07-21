@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mood">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito_sans"
+            android:gravity="center"
+            android:textColor="#acbdaa"
+            android:textSize="25dp"
+            android:text="How are you feeling today?" />
+        <View
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:background="#222222"
+            android:layout_height="0.70dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="158dp"
+                android:layout_height="158dp"
+                android:elevation="5dp"
+                android:id="@+id/mc1"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                   >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:gravity="center"
+                        android:src="@drawable/overjoyed"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Overjoyed"
+                        android:fontFamily="@font/nunito_sans"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="158dp"
+                android:layout_height="158dp"
+                android:elevation="5dp"
+                android:layout_margin="10dp"
+                android:id="@+id/mc2"
+                app:cardCornerRadius="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/llebook"
+                    >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:gravity="center"
+                        android:src="@drawable/happy"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp" />
+                    <TextView
+                        android:fontFamily="@font/nunito_sans"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Happy"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="158dp"
+                android:layout_height="158dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/mc3"
+                android:layout_margin="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                   >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:gravity="center"
+                        android:src="@drawable/soso"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp" />
+                    <TextView
+                        android:fontFamily="@font/nunito_sans"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="So-So"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                       />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="158dp"
+                android:layout_height="158dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/mc4"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:gravity="center"
+                        android:src="@drawable/lonely"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp" />
+
+                    <TextView
+                        android:fontFamily="@font/nunito_sans"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="Lonely"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_width="158dp"
+                android:layout_height="158dp"
+                android:elevation="5dp"
+                android:id="@+id/mc5"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="15dp">
+
+                <LinearLayout
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:gravity="center"
+                        android:src="@drawable/confused"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp" />
+
+
+                    <TextView
+                        android:fontFamily="@font/nunito_sans"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Confused"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</ScrollView>
